@@ -1,0 +1,11 @@
+<div class="display-question">
+  <h3><%= @question %></h3>
+  <p>-You</p>
+</div>
+
+<div class="display-answer">
+  <h3><%= @answer %></h3>
+  <p>-Your coach</p>
+</div>
+
+<%= link_to('Ask another question', ask_path, class: "new-question") %>
